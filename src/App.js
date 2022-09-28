@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { useEffect, useState } from 'react'
+import Palha from './components/Palha'
 
 function App() {
+
+  const [palhas, setPalhas] = useState([])
+
+  useEffect(() => {
+    fetch('https://delispalhasitalianas.herokuapp.com/api/palhas/')
+      .then(res => res.json())
+      .then(data => { setPalhas(data) })
+  }, [])
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='banner-container'>
+        <img src='/images/mockups_provisorios/banner.png' alt='banner da Delis' />
+      </div>
+      <div className='logo-container'>
+        <img src='/images/mockups_provisorios/logo.png' alt='logo da Delis' />
+      </div>
+
+      <section className='cardapio'>
+        {palhas.map(palha =>
+          (<Palha
+            key={palha.id}
+            name={palha.name}
+            description={palha.description}
+            image={palha.image}
+            price={palha.price}
+          />))}
+      </section>
     </div>
   );
 }

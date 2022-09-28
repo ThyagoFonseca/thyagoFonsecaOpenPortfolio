@@ -1,0 +1,18 @@
+.palha {
+    width: 280px;
+    background-color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.palha .image-container img {
+    max-width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 72px;
+}
+
+.palha .content-container {
+    padding: 8px;
+}
