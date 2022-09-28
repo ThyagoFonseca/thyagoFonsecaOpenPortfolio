@@ -17,10 +17,10 @@ function App() {
   return (
     <div className="App">
       <div className='banner-container'>
-        <img src='/images/mockups_provisorios/banner.png' alt='banner da Delis' />
+        <img src='/images/header/header.jpg' alt='banner da Delis' />
       </div>
       <div className='logo-container'>
-        <img src='/images/mockups_provisorios/logo.png' alt='logo da Delis' />
+        <img src='/images/logo/logo.png' alt='logo da Delis' width={250} />
       </div>
 
       <section className='cardapio'>
