@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1440">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a86f3e;
+      }
+
+      .cls-2 {
+        fill: #cc9a42;
+      }
+
+      .cls-3 {
+        fill: #7c2e2c;
+      }
+
+      .cls-4 {
+        fill: #f9efe3;
+      }
+
+      <!-- ANIMAÇÕES DE ENTRADA AO CARREGAR O SITE -->
+      #bottom-layer {
+        animation: entry-bottom-layer-vector 1s ease-in-out 1 forwards;
+      }
+
+      #middledown-layer {
+        animation: entry-middledown-layer-vector 2s ease-in-out 1 forwards;
+      }
+
+      #middleup-layer {
+        animation: entry-middledown-layer-vector 3s ease-in-out 1 forwards;
+      }
+
+      #top-layer {
+        animation: entry-middledown-layer-vector 4s ease-in-out 1 forwards;
+      }
+
+      @keyframes entry-bottom-layer-vector {
+        to {
+          transform: translateY(1200px);
+        }
+      }
+
+      @keyframes entry-middledown-layer-vector {
+        to {
+          transform: translateY(1200px);
+        }
+      }
+
+      @keyframes entry-middleup-layer-vector {
+        to {
+          transform: translateY(1200px);
+        }
+      }
+
+      @keyframes entry-top-layer-vector {
+        to {
+          transform: translateY(1500px);
+          transform: opacity 0.93;
+        }
+      }
+
+    </style>
+  </defs>
+  <g id="bottom-layer">
+    <g id="bottom-layer-vector">
+      <rect class="cls-1" x="201" y="-1490" width="734" height="1489"/>
+    </g>
+  </g>
+  <g id="middledown-layer">
+    <g id="middledown-layer-vector">
+      <rect class="cls-2" x="199" y="-1490" width="728.04" height="1479"/>
+    </g>
+  </g>
+  <g id="middleup-layer">
+    <g id="middleup-layer-vector">
+      <rect class="cls-3" x="192.59" y="-1490" width="720.92" height="1469"/>
+    </g>
+  </g>
+  <g id="top-layer" opacity="0.9">
+    <rect id="top-layer-vector" class="cls-4" x="300" y="-1100" width="677.16" height="1500" />
+  </g>
+</svg>

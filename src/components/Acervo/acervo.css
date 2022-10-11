@@ -1,0 +1,39 @@
+.acervo-body h3 {
+    text-align: center;
+    margin: 20px;
+    color: #CC9A42;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.acervo-container {
+    display: flex;
+    width: 100%;
+}
+
+.acervo-image {
+    width: 70%;
+}
+.acervo-image img {
+    max-width: 100%;
+    border-bottom-right-radius: 72px;
+}
+
+.acervo-AboutThis-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    transform: translate(-55%, 20%);
+    background-color: #F9EFE3;
+    width: 80%;
+}
+
+.acervo-button {
+    cursor: pointer;
+}
+
+.acervo-main .acervo-AboutThis-Button p {
+    color: #7C2E2C;
+}
