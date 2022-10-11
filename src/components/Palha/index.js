@@ -1,7 +1,7 @@
 import './Palha.css'
 
 
-export default function Palha({ name, description, image, price }) {
+export default function Palha({ name, image, price }) {
     return (
         <div className='palha'>
             <div className='image-container'>
@@ -11,9 +11,6 @@ export default function Palha({ name, description, image, price }) {
                 <h3 className='name'>
                     {name}
                 </h3>
-                <p className='description'>
-                    {description}
-                </p>
                 <h3 className='price'>
                     R$ {price}
                 </h3>
