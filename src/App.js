@@ -61,7 +61,6 @@ function App() {
   }, [Scrollcalc])
 
 
-
   return (
     <div className="App">
       <div className='banner-container'>
@@ -94,20 +93,20 @@ function App() {
         </div>
       </div>
 
-      {/*External component who's interact with the user using scroll button */}
+
       <div id='01_highlights' className='highlights-container'>
-        <h2>Confira nossos destaques</h2>
+        <h2>Destaques do momento</h2>
         {/*Collecting data from API */}
-        <section id='02_cardapio' className='cardapio'>
-          {palhas.map(palha =>
-          (<Palha
-            key={palha.id}
-            name={palha.name}
-            description={palha.description}
-            image={palha.image}
-            price={palha.price}
-          />))}
-        </section>
+          <section id='02_cardapio' className='cardapio'>
+            {palhas.map(palha =>
+            (<Palha
+              key={palha.id}
+              name={palha.name}
+              description={palha.description}
+              image={palha.image}
+              price={palha.price}
+            />))}
+          </section>
       </div>
 
       <div id='01_AboutUs' className='AboutUs'>
@@ -122,8 +121,7 @@ function App() {
           />
         ))}
       </div>
-
-    </div>
+    </div >
   );
 }
 
