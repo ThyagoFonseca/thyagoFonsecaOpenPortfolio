@@ -1,0 +1,48 @@
+.acervo-body h3 {
+    text-align: center;
+    margin: 20px;
+    color: #CC9A42;
+    font-size: 2rem;
+    font-weight: 300;
+    max-width: 600px;
+}
+
+.acervo-container {
+    display: flex;
+    width: 100%;
+    background-color: #7C2E2C;
+}
+
+.acervo-image {
+    width: 70%;
+}
+.acervo-image img {
+    max-width: 100%;
+    border-bottom-right-radius: 72px;
+}
+
+.acervo-AboutThis-Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    transform: translate(-55%, 20%);
+    background-color: #7C2E2C;
+    width: 80%;
+    border-top-left-radius: 72px;
+    border-bottom-left-radius: 72px;
+}
+
+.acervo-AboutThis-Content .acervo-button {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.acervo-main .acervo-AboutThis-Content p {
+    color: #F9EFE3;
+    margin: 30px;
+    padding: 0;
+    cursor: default ;
+}

@@ -1,9 +1,9 @@
 .palha {
     width: 280px;
-    background-color: #fff;
+    background-color: #7C2E2C;
     border-radius: 6px;
     text-align: center;
-    margin: 10px 0;
+    margin: 10px 10px;
 }
 
 .palha .image-container img {
@@ -15,4 +15,9 @@
 
 .palha .content-container {
     padding: 8px;
+    color: #F9EFE3;
+}
+
+.palha .content-container p {
+    color: #F9EFE3;
 }

@@ -1,10 +1,24 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #7C2E2C;
+}
+
+h2 {
+  font-size: 2rem;
+  font-style: italic;
+  color: #7C2E2C;
+}
+
+p {
+  font-size: 1rem;
+  color: #F9EFE3;
+  margin: 2px;
+  padding: 10px;
 }
 
 code {
