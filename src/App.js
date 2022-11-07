@@ -22,7 +22,7 @@ function App() {
     const positionCardapio = document.getElementById('02_cardapio').getBoundingClientRect()['y']
     console.log(positionHighlights, positionCardapio)
 
-    if (positionHighlights < 665) {
+    if (positionHighlights < 355) {
       document.getElementById('01_highlights').animate(
         [
           {
@@ -38,7 +38,7 @@ function App() {
       )
     }
 
-    if (positionCardapio < 620) {
+    if (positionCardapio < -270) {
       document.getElementById('02_cardapio').animate(
         [
           {
@@ -97,33 +97,35 @@ function App() {
       <div id='01_highlights' className='highlights-container'>
         <h2>Destaques do momento</h2>
         {/*Collecting data from API */}
-          <section id='02_cardapio' className='cardapio'>
-            {palhas.map(palha =>
-            (<Palha
-              key={palha.id}
-              name={palha.name}
-              description={palha.description}
-              image={palha.image}
-              price={palha.price}
-            />))}
-          </section>
+        <section id='02_cardapio' className='cardapio'>
+          {palhas.map(palha =>
+          (<Palha
+            key={palha.id}
+            name={palha.name}
+            description={palha.description}
+            image={palha.image}
+            price={palha.price}
+          />))}
+        </section>
       </div>
 
       <div id='01_AboutUs' className='AboutUs'>
         <h2>Nossas delícias</h2>
-        {palhas.map(acervo => (
-          <Acervo
-            key={acervo.id}
-            name={acervo.name}
-            description={acervo.description}
-            image={acervo.image}
-            tags={acervo.tags}
-          />
-        ))}
+        <div className='AboutUs-container'>
+          {palhas.map(acervo => (
+            <Acervo
+              key={acervo.id}
+              name={acervo.name}
+              description={acervo.description}
+              image={acervo.image}
+              tags={acervo.tags}
+            />
+          ))}
+        </div>
       </div>
 
-      </div >
-      );
+    </div >
+  );
 }
 
 export default App;

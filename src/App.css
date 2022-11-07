@@ -98,3 +98,7 @@ html {
 .AboutUs h2 {
   text-align: center;
 }
+
+.AboutUs-container {
+  background-color: #7C2E2C;
+}

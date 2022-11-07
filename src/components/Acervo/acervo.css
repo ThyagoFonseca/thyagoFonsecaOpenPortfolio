@@ -7,6 +7,13 @@
     max-width: 600px;
 }
 
+.acervo-main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+}
+
 .acervo-container {
     display: flex;
     width: 100%;
@@ -14,24 +21,22 @@
 }
 
 .acervo-image {
-    width: 70%;
+    min-width: 40%;
 }
 .acervo-image img {
     max-width: 100%;
-    border-bottom-right-radius: 72px;
+    border-bottom-right-radius: 8px;
 }
 
 .acervo-AboutThis-Content {
-    display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    z-index: 100;
-    transform: translate(-55%, 20%);
     background-color: #7C2E2C;
     width: 80%;
-    border-top-left-radius: 72px;
-    border-bottom-left-radius: 72px;
+}
+
+.acervo-button {
+    justify-content: right;
 }
 
 .acervo-AboutThis-Content .acervo-button {

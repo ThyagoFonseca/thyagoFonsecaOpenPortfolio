@@ -1,0 +1,10 @@
+.DescriptionButton {
+    cursor: pointer;
+    background-color: transparent;
+    color: #CC9A42;
+    border-width: 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}

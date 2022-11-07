@@ -1,0 +1,12 @@
+.show {
+    display:block !important;
+}
+.hide {
+    display:none !important;
+}
+
+.textArea {
+    color: #F9EFE3;
+    text-align: justify;
+    padding: 10px;
+}
