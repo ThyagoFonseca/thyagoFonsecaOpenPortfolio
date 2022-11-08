@@ -10,12 +10,12 @@ export default function Acervo({ image, name, description, tags }) {
                 <h3>{name}</h3>
             </div>
             <div className='acervo-container'>
-                <div className='acervo-image'>
+                <div className='acervo-contents'>
                     <img src={image} alt='Imagem da Palha - API' />
                 </div>
-            </div>
-            <div>
-                <Description APIDescription={description} />
+                <div className='acervo-contents'>
+                    <Description APIDescription={description} />
+                </div>
             </div>
         </section>
     )

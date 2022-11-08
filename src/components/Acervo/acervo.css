@@ -1,5 +1,5 @@
 .acervo-body h3 {
-    text-align: center;
+    text-align: right;
     margin: 20px;
     color: #CC9A42;
     font-size: 2rem;
@@ -7,24 +7,22 @@
     max-width: 600px;
 }
 
-.acervo-main {
+.acervo-container {
+    width: 100%;
+    background-color: #7C2E2C;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items:flex-end;
+    align-items:center;
 }
 
-.acervo-container {
-    display: flex;
-    width: 100%;
-    background-color: #7C2E2C;
+.acervo-contents {
+    padding: 10px;
 }
 
-.acervo-image {
-    min-width: 40%;
-}
 .acervo-image img {
     max-width: 100%;
+    min-width: 40%;
     border-bottom-right-radius: 8px;
 }
 
