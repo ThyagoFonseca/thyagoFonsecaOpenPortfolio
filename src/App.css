@@ -95,6 +95,10 @@ html {
   justify-content: space-around;
 }
 
+.AboutUs {
+  opacity: 0;
+}
+
 .AboutUs h2 {
   text-align: center;
 }

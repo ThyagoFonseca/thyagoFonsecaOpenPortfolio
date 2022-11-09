@@ -22,7 +22,7 @@ function App() {
     const positionCardapio = document.getElementById('02_cardapio').getBoundingClientRect()['y']
     console.log(positionHighlights, positionCardapio)
 
-    if (positionHighlights < 355) {
+    if (positionHighlights < 370) {
       document.getElementById('01_highlights').animate(
         [
           {
@@ -38,8 +38,8 @@ function App() {
       )
     }
 
-    if (positionCardapio < -270) {
-      document.getElementById('02_cardapio').animate(
+    if (positionCardapio < 0) {
+      document.getElementById('01_AboutUs').animate(
         [
           {
             opacity: 1,

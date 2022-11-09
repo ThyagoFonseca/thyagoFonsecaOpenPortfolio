@@ -1,0 +1,202 @@
+{
+    "palhas": [
+        {
+            "id": 1,
+            "name": "Tradicional",
+            "description": "Esse é nosso carro chefe, esta palha possui uma textura macia, e unida a crocância do biscoito triturado a mão e o açúcar que o cobre, obtemos uma palha com uma estrutura cristalina finíssima e leve que irá craquelar deliciosamente ao morder, não deixe de experimentar essa maravilha.",
+            "image": "../images/saboresPalhas/Tradicional.jpg",
+            "price": 5.00,
+            "tags": [
+                "Queridinho dos clientes",
+                "Brigadeiro Tradicional"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Meio Amargo",
+            "description": "Esta palha é um verdadeiro sucesso, é a sazonal mais pedida dos clientes, com sua camada de cacau em pó, o sabor amarginho do brigadeiro feito do puro cacau irá com toda certeza conquistar você.",
+            "image": "../images/saboresPalhas/Meio_amargo.jpg",
+            "price": 5.00,
+            "tags": [
+                "Queridinho dos clientes",
+                "Brigadeiros Especiais"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Café",
+            "description": "Este sabor caiu no gosto de nossos clientes, este brigadeiro leva em seu preparo uma medida caprichada de café, e ao experimentar essa delícia o sabor irá preencher seu paladar de uma maneira que você não irá resistir em comer um só.",
+            "image": "../images/saboresPalhas/Cafe.jpg",
+            "price": 5.00,
+            "tags": [
+                "Queridinho dos clientes",
+                "Brigadeiros Especiais"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Limão",
+            "description": "Este sabor é precioso, este brigadeiro irá ampliar seus sentidos com aquele azedinho maravilhoso do limão. Este sabor com toda certeza irá conquistar seu coração.",
+            "image": "../images/saboresPalhas/Limao.jpg",
+            "price": 5.00,
+            "tags": [
+                "Queridinho dos clientes",
+                "Brigadeiros Especiais"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Paçoca",
+            "description": "Essa palha comemorativa de festa junina é um estouro de sabor, o brigadeiro leva em seu preparo uma generosa porção de paçoca, e o sabor que ele tem é divino, não deixe de experimentar essa delícia.",
+            "image": "../images/saboresPalhas/Pacoca.jpg",
+            "price": 5.00,
+            "tags": [
+                "Edição comemorativa",
+                "Brigadeiros Especiais"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Churros",
+            "description": "Este sabor vai ter dar uma nostalgia deliciosa, pois quem não ama doce de leite com aquele açucar salpicado de canela, é uma verdadeira delícia de sabor.",
+            "image": "../images/saboresPalhas/Churros.jpg",
+            "price": 5.00,
+            "tags": [
+                "Edição comemorativa",
+                "Brigadeiros Especiais"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Nutella",
+            "description": "Uma palha feita com o famoso creme de avelã Nutella, irresistível né? Esta palha tem seu sabor e textura planejados para você apreciar cada mordida.",
+            "image": "../images/saboresPalhas/Nutella.jpg",
+            "price": 5.00,
+            "tags": [
+                "Edição comemorativa",
+                "Brigadeiros Especiais"
+            ]
+        },
+        {
+            "id": 8.1,
+            "name": "Edição de Natal de Duas Unidades",
+            "description": "Nossa edição de natal é perfeita para presentear e amigos, todo o produto é ornado lindamente seguindo nossa linha Boho chic, ofereçemos este produto sob encomenda em caixas com unidades variadas.",
+            "image": "../images/saboresPalhas/Edicao_natal.jpg",
+            "price": 12.00,
+            "tags": [
+                "Edição comemorativa",
+                "Box"
+            ]
+        },
+        {
+            "id": 8.2,
+            "name": "Edição de Natal de Quatro Unidades",
+            "description": "Nossa edição de natal é perfeita para presentear e amigos, todo o produto é ornado lindamente seguindo nossa linha Boho chic, ofereçemos este produto sob encomenda em caixas com unidades variadas.",
+            "image": "../images/saboresPalhas/Edicao_natal.jpg",
+            "price": 23.00,
+            "tags": [
+                "Edição comemorativa",
+                "Box"
+            ]
+        },
+        {
+            "id": 8.3,
+            "name": "Edição de Natal de Seis Unidades",
+            "description": "Nossa edição de natal é perfeita para presentear sua família, e amigos, todo o produto é ornado lindamente seguindo nossa linha Boho chic, ofereçemos este produto sob encomenda em caixas com unidades variadas.",
+            "image": "../images/saboresPalhas/Edicao_natal.jpg",
+            "price": 30.00,
+            "tags": [
+                "Edição comemorativa",
+                "Box"
+            ]
+        },
+        {
+            "id": 9.1,
+            "name": "Edição de Páscoa de Duas Unidades",
+            "description": "Esta edição de páscoa é maravilhosa para presentear sua família, e amigos, todo o produto é ornado lindamente seguindo nossa linha Boho chic, ofereçemos este produto sob encomenda em caixas com unidades variadas.",
+            "image": "../images/saboresPalhas/Edicao_pascoa.jpg",
+            "price": 12.00,
+            "tags": [
+                "Edição comemorativa",
+                "Box"
+            ]
+        },
+        {
+            "id": 9.2,
+            "name": "Edição de Páscoa de Quatro Unidades",
+            "description": "Esta edição de páscoa é maravilhosa para presentear sua família, e amigos, todo o produto é ornado lindamente seguindo nossa linha Boho chic, ofereçemos este produto sob encomenda em caixas com unidades variadas.",
+            "image": "../images/saboresPalhas/Edicao_pascoa.jpg",
+            "price": 23.00,
+            "tags": [
+                "Edição comemorativa",
+                "Box"
+            ]
+        },
+        {
+            "id": 9.3,
+            "name": "Edição de Páscoa de Seis Unidades",
+            "description": "Esta edição de páscoa é maravilhosa para presentear sua família e amigos, todo o produto é ornado lindamente seguindo nossa linha Boho chic, ofereçemos este produto sob encomenda em caixas com unidades variadas.",
+            "image": "../images/saboresPalhas/Edicao_pascoa.jpg",
+            "price": 30.00,
+            "tags": [
+                "Edição comemorativa",
+                "Box"
+            ]
+        },
+        {
+            "id": 10.1,
+            "name": "Encomenda Especial para presente com Quatro Unidades",
+            "description": "Ofereçemos nossas palhas de forma presenteável para você entregar para sua família e amigos, com um lindo ornamento Boho Chic de laço de pano com folhas secas estilo Delis.",
+            "image": "../images/saboresPalhas/Encomendas_presentes_tipo_2.jpg",
+            "price": 25.00,
+            "tags": [
+                "Edição comemorativa",
+                "Box"
+            ]
+        },
+        {
+            "id": 10.2,
+            "name": "Encomenda Especial para presente com Seis Unidades",
+            "description": "Ofereçemos nossas palhas de forma presenteável para você entregar para sua família e amigos, com um lindo ornamento Boho Chic de laço de pano com folhas secas estilo Delis.",
+            "image": "../images/saboresPalhas/Encomendas_presentes_tipo_2.jpg",
+            "price": 32.00,
+            "tags": [
+                "Edição comemorativa",
+                "Box"
+            ]
+        },
+        {
+            "id": 11.1,
+            "name": "Caixa com quatro unidades",
+            "description": "Nossas caixas sempre acompanham unidades tradicionais e sazonais, por padrão sempre havéra duas unidades da Tradicional e duas unidades da sazonal, mas se você preferir alterar esta proporção fazemos sob encomenda para você com todo carinho.",
+            "image": "../images/saboresPalhas/Caixas.jpg",
+            "price": 23.00,
+            "tags": [
+                "Queridinho dos clientes",
+                "Box"
+            ]
+        },
+        {
+            "id": 11.2,
+            "name": "Caixa com seis unidades",
+            "description": "Nossas caixas sempre acompanham unidades tradicionais e sazonais, por padrão sempre havéra três unidades da Tradicional e três unidades da sazonal, mas se você preferir alterar esta proporção fazemos sob encomenda para você com todo carinho.",
+            "image": "../images/saboresPalhas/Caixas.jpg",
+            "price": 30.00,
+            "tags": [
+                "Queridinho dos clientes",
+                "Box"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Mini Palhas",
+            "description": "Esta edição esta disponível apenas sob encomenda, mas vem cá, ela é perfeita para animar sua festa, confraternizações ou comemorações, elas ficam lindas arrumadas na mesa ou compor uma lembrançinha por exemplo, a imaginação é o limite! Consulte a respeito de sabores, forma de envio e embalagem.",
+            "image": "../images/saboresPalhas/Mini_palha.jpg",
+            "price": 2.50,
+            "tags": [
+                "Brigadeiro Tradicional",
+                "Box"
+            ]
+        }
+    ]
+}
