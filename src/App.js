@@ -4,6 +4,7 @@ import Palha from './components/Palha'
 import LogoHeader from './assets/LogoLetters.svg'
 import Acervo from './components/Acervo'
 
+
 function App() {
 
   const [palhas, setPalhas] = useState([])
